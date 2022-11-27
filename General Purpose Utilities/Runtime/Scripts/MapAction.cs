@@ -1,0 +1,17 @@
+public delegate void MapAction<TElement>(ref TElement element);
+public delegate void MapAction<TElement, T1>(ref TElement element, T1 arg);
+public delegate void MapAction<TElement, T1, T2>(ref TElement element, T1 arg1, T2 arg2);
+public delegate void MapAction<TElement, T1, T2, T3>(ref TElement element, T1 arg1, T2 arg2, T3 arg3);
+public delegate void MapAction<TElement, T1, T2, T3, T4>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15);
+public delegate void MapAction<TElement, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>(ref TElement element, T1 arg1, T2 arg2, T3 arg3, T4 arg4, T5 arg5, T6 arg6, T7 arg7, T8 arg8, T9 arg9, T10 arg10, T11 arg11, T12 arg12, T13 arg13, T14 arg14, T15 arg15, T16 arg16);
