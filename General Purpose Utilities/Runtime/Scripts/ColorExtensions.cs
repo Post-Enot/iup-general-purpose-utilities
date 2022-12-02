@@ -8,15 +8,16 @@ namespace IUP.Toolkits
         /// Делает передаваемый цвет контрастным этому.
         /// </summary>
         /// <param name="color">Цвет, который необходимо сделать контрастным этому.</param>
-        public static void MakeContrast(this Color @this, ref Color color)
+        /// <returns>Возвращает контрастную версию цвета.</returns>
+        public static Color MakeContrast(this Color @this, Color color)
         {
             if (@this.IsDark())
             {
-                color = MakeLight(color);
+                return MakeLight(color);
             }
             else
             {
-                color = MakeDark(color);
+                return MakeDark(color);
             }
         }
 
