@@ -2,7 +2,7 @@
 
 namespace IUP.Toolkits
 {
-    public static class ListExtension
+    public static class ListExtensions
     {
         /// <summary>
         /// Перемещает элемент на позицию переданного индекса, передвигая все остальные элементы.

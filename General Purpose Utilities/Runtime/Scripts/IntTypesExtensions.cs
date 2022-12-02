@@ -1,6 +1,6 @@
 ﻿namespace IUP.Toolkits
 {
-    public static class IntTypesExtension
+    public static class IntTypesExtensions
     {
         /// <summary>
         /// Проверяет, является ли число чётным.
