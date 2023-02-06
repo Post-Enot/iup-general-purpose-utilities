@@ -1,5 +1,5 @@
 {
-    "name": "iup.GeneralPurposeUtilities.editor",
+    "name": "IUP.GeneralPurposeUtilities.Editor",
     "rootNamespace": "",
     "references": [
         "GUID:23710380ea4a23940b8551abaac72858"

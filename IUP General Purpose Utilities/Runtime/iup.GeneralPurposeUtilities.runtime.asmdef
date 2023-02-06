@@ -1,5 +1,5 @@
 {
-    "name": "iup.GeneralPurposeUtilities.runtime",
+    "name": "IUP.GeneralPurposeUtilities.Runtime",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [],
