@@ -5,7 +5,8 @@ using UnityEngine.UIElements;
 namespace IUP.Toolkits.SerializableCollections.Editor
 {
     [CustomPropertyDrawer(typeof(SHashSet<>), true)]
-    public sealed class SHashSetPropertyDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(SRHashSet<>), true)]
+    public sealed class HashSetPropertyDrawer : PropertyDrawer
     {
         public override VisualElement CreatePropertyGUI(SerializedProperty property)
         {
